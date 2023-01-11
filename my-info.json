@@ -2,5 +2,6 @@
   "favouriteColors": ["black", "white", "red"],
   "countryName": "Japan",
   "countryPopulation": 123951692,
-  "visit": true
+  "visit": true,
+  "favouriteFoods": ["Fried Chicken", "Pasta", "Rojak"]
 }
