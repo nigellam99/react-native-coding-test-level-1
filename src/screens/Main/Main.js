@@ -21,6 +21,19 @@ const Main = ({ navigation }) => {
         textStyle={{ fontSize: wp("8%") }}
         onPress={() => navigation.navigate("Contact Us")}
       />
+      <PrimaryButton
+        buttonColor="black"
+        titleColor="white"
+        title="View Catalog"
+        buttonStyle={{
+          borderWidth: 1,
+          borderColor: "#1c1c1c",
+          borderRadius: 10,
+          marginTop: 20,
+        }}
+        textStyle={{ fontSize: wp("8%") }}
+        onPress={() => navigation.navigate("View Catalog")}
+      />
     </View>
   );
 };
